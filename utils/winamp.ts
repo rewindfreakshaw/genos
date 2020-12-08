@@ -9,7 +9,7 @@ import type {
 const demoTrack = {
   metaData: {
     artist: 'Porter Robinson',
-    title: "Something Comforting"
+    title: 'Something Comforting'
   },
   url: '/mp3/music.mp3'
 };
