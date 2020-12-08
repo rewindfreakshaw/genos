@@ -5,7 +5,7 @@ import type { AppComponent } from '@/types/utils/programs';
 const GITHUB_HOME_PAGE = 'https://github.com/genemators/';
 
 const GitHub: React.FC<AppComponent> = () => (
-  <iframe className={styles.blog} title="Blog" src={GITHUB_HOME_PAGE} />
+  <iframe className={styles.blog} title="GitHub" src={GITHUB_HOME_PAGE} />
 );
 
 export default GitHub;
