@@ -11,6 +11,6 @@ const GitHub: React.FC<AppComponent> = () => (
 export default GitHub;
 
 export const loaderOptions = {
-  width: 900,
-  height: 725
+  width: 1280,
+  height: 720
 };
