@@ -9,8 +9,8 @@ const Metadata: React.FC = () => {
 
   return (
     <Head>
-      <title>{name}</title>
-      <meta name="description" content={description} />
+      <title>GenOS - Genemator's Desktop Browser OS</title>
+      <meta name="description" content="This is Genemator's Browser OS which was created to work remotely without server bind." />
       <link
         rel="preload"
         href="fonts/segoeui.woff2"
