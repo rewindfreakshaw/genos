@@ -11,6 +11,6 @@ const Blog: React.FC<AppComponent> = () => (
 export default Blog;
 
 export const loaderOptions = {
-  width: 866,
+  width: 900,
   height: 725
 };
