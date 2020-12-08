@@ -2,7 +2,7 @@
   "name": "x",
   "description": "Desktop environment in the browser.",
   "version": "1.0.0",
-  "author": "Dustin Brett",
+  "author": "Genemator Sakhib",
   "license": "MIT",
   "scripts": {
     "build": "next build",

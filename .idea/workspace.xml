@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb56f58c-dbb3-4b96-9130-29366f6115c0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/desktop/Blog.url" beforeDir="false" afterPath="$PROJECT_DIR$/public/desktop/Blog.url" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/desktop/DOS.url" beforeDir="false" afterPath="$PROJECT_DIR$/public/desktop/DOS.url" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +18,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -40,7 +39,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607462840765</updated>
-      <workItem from="1607462843092" duration="99000" />
+      <workItem from="1607462843092" duration="216000" />
     </task>
     <servers />
   </component>
