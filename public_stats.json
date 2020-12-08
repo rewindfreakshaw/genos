@@ -3,7 +3,7 @@
   "/desktop/Doom.url": { "size": 131, "mtime": "2020-12-08T21:29:58.929Z" },
   "/desktop/DOS.url": { "size": 135, "mtime": "2020-12-08T21:29:00.350Z" },
   "/desktop/Explorer.url": { "size": 135, "mtime": "2020-12-08T21:29:58.988Z" },
-  "/desktop/GitHub.url": { "size": 128, "mtime": "2020-12-08T22:43:41.041Z" },
+  "/desktop/Student.url": { "size": 130, "mtime": "2020-12-08T23:06:14.247Z" },
   "/docs/welcome.odt": { "size": 135879, "mtime": "2020-11-30T07:28:31.000Z" },
   "/favicon.ico": { "size": 114812, "mtime": "2020-12-08T22:48:49.179Z" },
   "/fonts/segmdl2.woff2": {
@@ -50,9 +50,9 @@
     "size": 17729,
     "mtime": "2020-11-30T07:28:31.000Z"
   },
-  "/icons/programs/github.png": {
-    "size": 34814,
-    "mtime": "2020-12-08T22:43:25.704Z"
+  "/icons/programs/student.png": {
+    "size": 53165,
+    "mtime": "2020-12-08T23:07:22.592Z"
   },
   "/icons/programs/webodf.png": {
     "size": 45927,
