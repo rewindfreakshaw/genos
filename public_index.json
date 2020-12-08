@@ -18,9 +18,10 @@
     "files": { "js.svg": null, "unknown.svg": null },
     "games": { "doom.png": null, "jazz.png": null, "keen.png": null },
     "programs": {
-      "blog.jpeg": null,
+      "blog.png": null,
       "dos.png": null,
       "explorer.png": null,
+      "github.png": null,
       "webodf.png": null,
       "winamp.png": null
     }
