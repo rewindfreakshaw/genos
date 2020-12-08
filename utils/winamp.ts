@@ -8,10 +8,10 @@ import type {
 
 const demoTrack = {
   metaData: {
-    artist: 'DJ Mike Llama',
-    title: "Llama Whippin' Intro"
+    artist: 'Porter Robinson',
+    title: "Something Comforting"
   },
-  url: '/mp3/demo.mp3'
+  url: '/mp3/music.mp3'
 };
 
 /* eslint no-underscore-dangle: off */
