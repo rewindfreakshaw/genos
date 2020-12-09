@@ -48,41 +48,44 @@ export default function ErrorPage(): ReactElement {
           body {
             background: #0414a7;
           }
-
-          .container {
-            width: 90%;
-            margin: auto;
-            max-width: 640px;
-          }
-
-          .bsod {
-            padding-top: 10%;
-          }
-          .bsod .neg {
-            text-align: center;
-            color: #0414a7;
-          }
-          .bsod .neg .bg {
-            background: #aaaaaa;
-            padding: 0 15px 2px 13px;
-          }
-          .bsod .title {
-            margin-bottom: 50px;
-          }
-          .bsod .nav {
-            margin-top: 35px;
-            text-align: center;
-          }
-          .bsod .nav .link {
-            text-decoration: none;
-            padding: 0 9px 2px 8px;
-          }
-          .bsod .nav .link:hover,
-          .bsod .nav .link:focus {
-            background: #aaaaaa;
-            color: #0414a7;
-          }
         `}</style>
+        <style jsx>
+          {`
+            .container {
+              width: 90%;
+              margin: auto;
+              max-width: 640px;
+            }
+
+            .bsod {
+              padding-top: 10%;
+            }
+            .bsod .neg {
+              text-align: center;
+              color: #0414a7;
+            }
+            .bsod .neg .bg {
+              background: #aaaaaa;
+              padding: 0 15px 2px 13px;
+            }
+            .bsod .title {
+              margin-bottom: 50px;
+            }
+            .bsod .nav {
+              margin-top: 35px;
+              text-align: center;
+            }
+            .bsod .nav .link {
+              text-decoration: none;
+              padding: 0 9px 2px 8px;
+            }
+            .bsod .nav .link:hover,
+            .bsod .nav .link:focus {
+              background: #aaaaaa;
+              color: #0414a7;
+            }
+          `}
+        </style>
       </Head>
       <main className="bsod container">
         <h1 className="neg title">
