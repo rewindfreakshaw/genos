@@ -1,6 +1,5 @@
 import '@/styles/error.scss';
 import React, { ReactElement } from 'react';
-import { Head } from 'next/document';
 
 export default function ErrorPage(): ReactElement {
   return (
