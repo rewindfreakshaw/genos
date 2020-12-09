@@ -1,6 +1,6 @@
 import type { ReactElement } from 'react';
 import { Head } from 'next/document';
-import '@/styles/error.scss';
+import styles from '@/styles/error.scss';
 
 
 export default function ErrorPage(): ReactElement {
@@ -17,13 +17,13 @@ export default function ErrorPage(): ReactElement {
 
         </style>
       </Head>
-      <div className="bsod container">
-        <h1 className="neg title"><span className="bg">Error - 404</span></h1>
+      <div className={styles.container && styles.bsod}>
+        <h1 className={styles.neg && styles.title}><span className={styles.bg}>Error - 404</span></h1>
         <p>An error has occurred, to continue:</p>
         <p>* Return to our homepage.<br />
-          * Send us an e-mail about this error and try later.</p>
-        <nav className="nav">
-          <a href="/" className="link">index</a>&nbsp;|&nbsp;<a href="https://genemator.me" className="link">webmaster</a>
+          * Send us a feedback about this error and try later.</p>
+        <nav className={styles.nav}>
+          <a href="/" className={styles.link}>index</a>&nbsp;|&nbsp;<a href="https://genemator.me" className={styles.link}>webmaster</a>
         </nav>
       </div>
     </>
