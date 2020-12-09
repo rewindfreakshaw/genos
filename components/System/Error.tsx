@@ -1,4 +1,4 @@
-import '@/styles/System/Error/error.module.scss';
+import '@/styles/error.css';
 import React, { ReactElement } from 'react';
 
 export default function ErrorPage(): ReactElement {
