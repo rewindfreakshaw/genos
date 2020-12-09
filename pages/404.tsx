@@ -1,5 +1,6 @@
 import type { ReactElement } from 'react';
 import { Head } from 'next/document';
+// @ts-ignore
 import styles from '@/styles/error.scss';
 
 
