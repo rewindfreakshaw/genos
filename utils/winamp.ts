@@ -85,7 +85,7 @@ export const loadTrackOrSkin = (
     webamp.setSkinFromUrl(url);
   } else {
     webamp.setTracksToPlay([
-      url ? { url, metaData: { artist: '', title: name } } : demoTrack
+      url ? { url, metaData: { artist: '', title: name } } : trackList[0]
     ]);
   }
 };
