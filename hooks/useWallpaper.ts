@@ -8,7 +8,7 @@ import { MILLISECONDS_IN_SECOND } from '@/utils/constants';
 import { useEffect } from 'react';
 
 const wallpaperColor = (h: number): number =>
-  Color(`hsl(0, 0, ${h})`).rgbNumber();
+  Color(`hsl(${h}, 0%, 0%)`).rgbNumber();
 
 const fps = 20;
 const updateIntervalInMilliseconds = MILLISECONDS_IN_SECOND / fps;
