@@ -34,7 +34,7 @@ const Winamp: React.FC<AppComponent> = ({
   onDrag,
   zIndex,
   url: appUrl,
-  file: { url = '', name = '' } = {}
+  file: { url = '/skins/Adidas.wsz', name = '' } = {}
 }) => {
   const [webampLib, setWebampLib] = useState<Webamp & WebampStore>();
   const [closing, setClosing] = useState(false);

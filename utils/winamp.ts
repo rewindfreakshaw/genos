@@ -44,7 +44,6 @@ export const loadTrackOrSkin = (
   name: string
 ): void => {
   if (url.includes('.wsz')) {
-    webamp.setSkinFromUrl('/skins/SpyAMP_Pro.wsz');
     webamp.appendTracks([demoTrack]);
     webamp.setSkinFromUrl(url);
   } else {
