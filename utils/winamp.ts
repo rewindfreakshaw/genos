@@ -47,7 +47,7 @@ const trackList = [
       artist: 'Lennon Stella',
       title: 'Polaroid'
     },
-    url: '/musics/comforting.mp3'
+    url: '/musics/polaroid.mp3'
   }
   ];
 
