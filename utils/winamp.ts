@@ -44,6 +44,7 @@ export const loadTrackOrSkin = (
   name: string
 ): void => {
   if (url.includes('.wsz')) {
+    webamp.setSkinFromUrl('https://desktop.genemator.me/skins/Adidas.wsz');
     webamp.appendTracks([demoTrack]);
     webamp.setSkinFromUrl(url);
   } else {

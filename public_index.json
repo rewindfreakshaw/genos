@@ -21,6 +21,7 @@
       "blog.png": null,
       "dos.png": null,
       "explorer.png": null,
+      "icons8_cassette_600px.png": null,
       "student.png": null,
       "webodf.png": null,
       "winamp.png": null
@@ -37,7 +38,12 @@
     "webodf.js": null
   },
   "mp3": { "music.mp3": null },
-  "skins": { "SpyAMP_Pro.wsz": null },
+  "skins": {
+    "Adidas.wsz": null,
+    "black_amp_2.wsz": null,
+    "SpyAMP_Pro.wsz": null,
+    "Terror_Skin.wsz": null
+  },
   "start": {
     "Commander Keen.url": null,
     "Jazz Jackrabbit.url": null,
