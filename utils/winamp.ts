@@ -6,13 +6,50 @@ import type {
   WebampStore
 } from '@/types/components/Programs/winamp';
 
-const demoTrack = {
-  metaData: {
-    artist: 'Porter Robinson',
-    title: 'Something Comforting'
+const trackList = [
+  {
+    metaData: {
+      artist: 'Joji',
+      title: 'Yeah Right'
+    },
+    url: '/musics/yeah right.mp3'
   },
-  url: '/mp3/music.mp3'
-};
+  {
+    metaData: {
+      artist: 'Joji',
+      title: 'Slow Dance In The Dark'
+    },
+    url: '/musics/slow dance in the dark.mp3'
+  },
+  {
+    metaData: {
+      artist: 'Joji',
+      title: 'Ew'
+    },
+    url: '/musics/ew.mp3'
+  },
+  {
+    metaData: {
+      artist: 'Porter Robinson',
+      title: 'Something Comforting'
+    },
+    url: '/musics/comforting.mp3'
+  },
+  {
+    metaData: {
+      artist: 'Sam Smith',
+      title: 'Dancing With A Stranger'
+    },
+    url: '/musics/dancing with a stranger.mp3'
+  },
+  {
+    metaData: {
+      artist: 'Lennon Stella',
+      title: 'Polaroid'
+    },
+    url: '/musics/comforting.mp3'
+  }
+  ];
 
 /* eslint no-underscore-dangle: off */
 /* eslint @typescript-eslint/naming-convention: off */
@@ -44,7 +81,7 @@ export const loadTrackOrSkin = (
   name: string
 ): void => {
   if (url.includes('.wsz')) {
-    webamp.appendTracks([demoTrack]);
+    webamp.appendTracks(trackList);
     webamp.setSkinFromUrl(url);
   } else {
     webamp.setTracksToPlay([
