@@ -49,7 +49,7 @@ const trackList = [
     },
     url: '/musics/polaroid.mp3'
   }
-  ];
+];
 
 /* eslint no-underscore-dangle: off */
 /* eslint @typescript-eslint/naming-convention: off */
