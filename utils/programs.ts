@@ -4,6 +4,7 @@ import dynamic from 'next/dynamic';
 import { extname } from 'path';
 import { isValidUrl } from '@/utils/url';
 import { loaderOptions as blogLoaderOptions } from '@/components/Programs/Blog';
+import { loaderOptions as genematorLoaderOptions } from '@/components/Programs/Genemator';
 import { loaderOptions as studentLoaderOptions } from '@/components/Programs/Student';
 import { loaderOptions as dosLoaderOptions } from '@/components/Programs/Dos';
 import { loaderOptions as explorerLoaderOptions } from '@/components/Programs/Explorer';
@@ -12,6 +13,7 @@ import { loaderOptions as winampLoaderOptions } from '@/components/Programs/Wina
 import { ROOT_DIRECTORY } from '@/utils/constants';
 
 const Blog = dynamic(import('@/components/Programs/Blog'));
+const Genemator = dynamic(import('@/components/Programs/Genemator'));
 const Student = dynamic(import('@/components/Programs/Student'));
 const Dos = dynamic(import('@/components/Programs/Dos'));
 const Explorer = dynamic(import('@/components/Programs/Explorer'));
@@ -22,6 +24,10 @@ const appLoaders: AppLoaders = {
   blog: {
     loader: Blog,
     loaderOptions: blogLoaderOptions
+  },
+  genemator: {
+    loader: Genemator,
+    loaderOptions: genematorLoaderOptions
   },
   student: {
     loader: Student,
