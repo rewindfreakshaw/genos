@@ -4,7 +4,7 @@ import ButtonBar from '@/components/System/Taskbar/ButtonBar';
 import FileManager from '@/components/System/FileManager/FileManager';
 import MenuView from '@/components/System/FileManager/MenuView';
 import { createPortal } from 'react-dom';
-import { faWindows } from '@fortawesome/free-brands-svg-icons';
+import { faApple } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { getNextContainerElement } from '@/utils/elements';
 import { useEffect, useRef, useState } from 'react';
