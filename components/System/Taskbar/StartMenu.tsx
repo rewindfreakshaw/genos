@@ -54,7 +54,7 @@ const StartMenu: React.FC<{
               }
             }}
           >
-            <FontAwesomeIcon icon={faWindows} />
+            <FontAwesomeIcon icon={faApple} />
           </button>
         </>,
         getNextContainerElement()
