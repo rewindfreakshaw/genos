@@ -4,11 +4,11 @@ import type { AppComponent } from '@/types/utils/programs';
 
 const BLOG_HOME_PAGE = 'https://old.bsba.uz/';
 
-const Blog: React.FC<AppComponent> = () => (
-  <iframe className={styles.blog} title="Blog" src={BLOG_HOME_PAGE} />
+const Old: React.FC<AppComponent> = () => (
+  <iframe className={styles.blog} title="Old" src={BLOG_HOME_PAGE} />
 );
 
-export default Blog;
+export default Old;
 
 export const loaderOptions = {
   width: 1000,

@@ -3,7 +3,7 @@ import type { AppFile, AppLoader, AppLoaders } from '@/types/utils/programs';
 import dynamic from 'next/dynamic';
 import { extname } from 'path';
 import { isValidUrl } from '@/utils/url';
-import { loaderOptions as blogLoaderOptions } from '@/components/Programs/Blog';
+import { loaderOptions as oldLoaderOptions } from '@/components/Programs/Old';
 import { loaderOptions as genematorLoaderOptions } from '@/components/Programs/Genemator';
 import { loaderOptions as dosLoaderOptions } from '@/components/Programs/Dos';
 import { loaderOptions as explorerLoaderOptions } from '@/components/Programs/Explorer';
@@ -11,7 +11,7 @@ import { loaderOptions as webampLoaderOptions } from '@/components/Programs/WebO
 import { loaderOptions as winampLoaderOptions } from '@/components/Programs/Winamp';
 import { ROOT_DIRECTORY } from '@/utils/constants';
 
-const Blog = dynamic(import('@/components/Programs/Blog'));
+const Old = dynamic(import('@/components/Programs/Old'));
 const Genemator = dynamic(import('@/components/Programs/Genemator'));
 const Dos = dynamic(import('@/components/Programs/Dos'));
 const Explorer = dynamic(import('@/components/Programs/Explorer'));
@@ -19,9 +19,9 @@ const WebODF = dynamic(import('@/components/Programs/WebODF'));
 const Winamp = dynamic(import('@/components/Programs/Winamp'));
 
 const appLoaders: AppLoaders = {
-  blog: {
-    loader: Blog,
-    loaderOptions: blogLoaderOptions
+  old: {
+    loader: Old,
+    loaderOptions: oldLoaderOptions
   },
   genemator: {
     loader: Genemator,
