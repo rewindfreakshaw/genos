@@ -8,19 +8,6 @@
   },
   "docs": { "welcome.odt": null },
   "games": { "doom.jsdos": null, "jazz.jsdos": null, "keen4.jsdos": null },
-  "icons": {
-    "files": { "js.svg": null, "unknown.svg": null },
-    "games": { "doom.png": null, "jazz.png": null, "keen.png": null },
-    "programs": {
-      "dos.png": null,
-      "explorer.png": null,
-      "genemator.png": null,
-      "icons8_cassette_600px.png": null,
-      "old.png": null,
-      "webodf.png": null,
-      "winamp.png": null
-    }
-  },
   "musics": {
     "comforting.mp3": null,
     "dancing with a stranger.mp3": null,
