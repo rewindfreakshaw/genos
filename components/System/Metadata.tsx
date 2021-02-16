@@ -14,6 +14,11 @@ const Metadata: React.FC = () => {
         name="description"
         content="This is BSBA's Browser OS which was created to work remotely without server bind."
       />
+      <meta
+        property="og:image"
+        content="https://genemator.me/preview.png"
+      />
+      <meta property="og:site_name" content="BSBA" />
       <link
         rel="preload"
         href="fonts/segoeui.woff2"
