@@ -4,7 +4,7 @@ import ButtonBar from '@/components/System/Taskbar/ButtonBar';
 import FileManager from '@/components/System/FileManager/FileManager';
 import MenuView from '@/components/System/FileManager/MenuView';
 import { createPortal } from 'react-dom';
-import { faLinux } from '@fortawesome/free-brands-svg-icons';
+import { faRedhat } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { getNextContainerElement } from '@/utils/elements';
 import { useEffect, useRef, useState } from 'react';
@@ -54,7 +54,7 @@ const StartMenu: React.FC<{
               }
             }}
           >
-            <FontAwesomeIcon icon={faLinux} />
+            <FontAwesomeIcon icon={faRedhat} />
           </button>
         </>,
         getNextContainerElement()
