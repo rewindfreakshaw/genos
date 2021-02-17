@@ -5,21 +5,16 @@
   position: absolute;
   bottom: 0;
   left: 48px;
-
   width: 227px;
   height: 300px;
   padding-top: 7px;
   padding-right: 14px;
-
   li {
     padding: 2px;
     padding-left: 4px;
-
     color: rgba($offWhite, 0.8);
-
     figure {
       font-size: 12px;
-
       display: flex;
       align-items: center;
 
@@ -55,9 +50,7 @@
 .menuIcon {
   width: 32px;
   height: 32px;
-
   background-color: darken($highlightColor, 25%);
-
   img {
     width: 32px;
     height: 32px;

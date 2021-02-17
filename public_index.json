@@ -1,10 +1,11 @@
 {
   "desktop": {
-    "DOS.url": null,
     "Doom.url": null,
+    "DOS.url": null,
     "Explorer.url": null,
     "Genemator.url": null,
-    "Old Website.url": null
+    "Old Website.url": null,
+    "Telegram.url": null
   },
   "docs": { "welcome.odt": null },
   "games": { "doom.jsdos": null, "jazz.jsdos": null, "keen4.jsdos": null },
