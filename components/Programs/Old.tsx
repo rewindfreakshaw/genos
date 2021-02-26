@@ -1,4 +1,4 @@
-import styles from '@/styles/Programs/Blog.module.scss';
+import styles from '@/styles/Programs/Old.module.scss';
 
 import type { AppComponent } from '@/types/utils/programs';
 

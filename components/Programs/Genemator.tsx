@@ -1,11 +1,15 @@
-import styles from '@/styles/Programs/Blog.module.scss';
+import styles from '@/styles/Programs/Genemator.module.scss';
 
 import type { AppComponent } from '@/types/utils/programs';
 
 const GENEMATOR_HOME_PAGE = 'https://genemator.me/';
 
 const Genemator: React.FC<AppComponent> = () => (
-  <iframe className={styles.blog} title="Genemator" src={GENEMATOR_HOME_PAGE} />
+  <iframe
+    className={styles.genemator}
+    title="Genemator"
+    src={GENEMATOR_HOME_PAGE}
+  />
 );
 
 export default Genemator;
