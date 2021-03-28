@@ -20,11 +20,12 @@ const vantaJsSettings = {
   mouseControls: true,
   touchControls: true,
   color: 0xffffff, // wallpaperColor(initialColor),
-  shininess: 35,
-  waveHeight: 15,
-  waveSpeed: 0.25,
+  // shininess: 35,
+  size: 0.60,
+  // waveHeight: 15,
+  // waveSpeed: 0.25,
   backgroundColor: 0x0,
-  zoom: 0.95
+  // zoom: 0.95
 };
 
 const initRainbowEffect = (wallpaperEffect: WallpaperEffect): (() => void) => {
