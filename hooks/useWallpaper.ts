@@ -1,4 +1,6 @@
 import WAVES from '@/public/libs/vanta.waves.min';
+import GLOBE from '@/public/libs/vanta.globe.min';
+import DOTS from '@/public/libs/vanta.dots.min';
 
 import type { WallpaperEffect } from '@/types/components/System/Desktop/Wallpaper';
 
@@ -15,12 +17,13 @@ const updateIntervalInMilliseconds = MILLISECONDS_IN_SECOND / fps;
 const initialColor = 200;
 const vantaJsSettings = {
   gyroControls: false,
-  mouseControls: false,
-  touchControls: false,
-  color: wallpaperColor(initialColor),
+  mouseControls: true,
+  touchControls: true,
+  color: 0xffffff, // wallpaperColor(initialColor),
   shininess: 35,
   waveHeight: 15,
   waveSpeed: 0.25,
+  backgroundColor: 0x0,
   zoom: 0.95
 };
 
@@ -43,7 +46,7 @@ const initRainbowEffect = (wallpaperEffect: WallpaperEffect): (() => void) => {
     colorUpdateAnimationId = requestAnimationFrame(updateColor);
   };
 
-  colorUpdateAnimationId = requestAnimationFrame(updateColor);
+  // colorUpdateAnimationId = requestAnimationFrame(updateColor);
 
   return () => {
     cancelAnimationFrame(colorUpdateAnimationId);
@@ -53,7 +56,7 @@ const initRainbowEffect = (wallpaperEffect: WallpaperEffect): (() => void) => {
 const renderWallpaperEffect = ({
   current: renderElement
 }: React.RefObject<HTMLElement>): WallpaperEffect => {
-  const wallpaperEffect = WAVES({
+  const wallpaperEffect = GLOBE({
     el: renderElement,
     THREE,
     ...vantaJsSettings
