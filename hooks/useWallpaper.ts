@@ -21,10 +21,10 @@ const vantaJsSettings = {
   touchControls: true,
   color: 0xffffff, // wallpaperColor(initialColor),
   // shininess: 35,
-  size: 0.60,
+  size: 0.6,
   // waveHeight: 15,
   // waveSpeed: 0.25,
-  backgroundColor: 0x0,
+  backgroundColor: 0x0
   // zoom: 0.95
 };
 
