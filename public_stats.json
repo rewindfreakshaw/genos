@@ -1,4 +1,5 @@
 {
+  "/desktop/Code.url": { "size": 126, "mtime": "2021-03-28T23:56:24.609Z" },
   "/desktop/Doom.url": { "size": 131, "mtime": "2021-03-28T04:10:00.407Z" },
   "/desktop/DOS.url": { "size": 138, "mtime": "2021-03-28T04:10:00.407Z" },
   "/desktop/Explorer.url": { "size": 135, "mtime": "2021-03-28T04:10:00.407Z" },
@@ -57,17 +58,21 @@
     "size": 1162825,
     "mtime": "2021-03-28T04:10:00.439Z"
   },
-  "/icons/programs/icons8_cassette_600px.png": {
-    "size": 10692,
-    "mtime": "2021-03-28T04:10:00.439Z"
-  },
   "/icons/programs/old.png": {
     "size": 11458,
+    "mtime": "2021-03-28T04:10:00.439Z"
+  },
+  "/icons/programs/save.png": {
+    "size": 10692,
     "mtime": "2021-03-28T04:10:00.439Z"
   },
   "/icons/programs/telegram.png": {
     "size": 44085,
     "mtime": "2021-03-28T04:10:00.439Z"
+  },
+  "/icons/programs/vscode.png": {
+    "size": 26693,
+    "mtime": "2021-03-28T23:50:36.055Z"
   },
   "/icons/programs/webodf.png": {
     "size": 3254,

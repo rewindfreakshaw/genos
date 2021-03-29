@@ -1,5 +1,6 @@
 {
   "desktop": {
+    "Code.url": null,
     "Doom.url": null,
     "DOS.url": null,
     "Explorer.url": null,
@@ -22,9 +23,10 @@
       "dos.png": null,
       "explorer.png": null,
       "genemator.png": null,
-      "icons8_cassette_600px.png": null,
       "old.png": null,
+      "save.png": null,
       "telegram.png": null,
+      "vscode.png": null,
       "webodf.png": null,
       "winamp.png": null
     }
