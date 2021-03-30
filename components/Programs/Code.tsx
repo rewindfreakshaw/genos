@@ -9,8 +9,7 @@ const Code: React.FC<AppComponent> = () => {
   const [autoOpen, setAutoOpen] = useState(false);
   const windowSettings: { target: string; features: string } = {
     target: 'codeWindow',
-    features:
-      'width=1200,height=900,toolbar=no,menubar=no,resizable=yes'
+    features: 'width=1200,height=900,toolbar=no,menubar=no,resizable=yes'
   };
 
   if (!autoOpen) {

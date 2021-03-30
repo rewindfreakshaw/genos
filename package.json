@@ -9,7 +9,7 @@
     "check": "npm run eslint -- --fix && npm run csscomb && npm run prettier && npm run stylelint && npm run genfs && npm run build",
     "csscomb": "csscomb styles",
     "dev": "next dev",
-    "eslint": "eslint components contexts pages types utils *.js *.ts",
+    "eslint": "eslint components contexts pages types utils *.ts",
     "genfs": "cd public && make_xhrfs_index ../public_index.json && node ../scripts/cache_size_and_date.js ../public_index.json ../public_stats.json",
     "prettier": "prettier --write .",
     "start": "next start",
