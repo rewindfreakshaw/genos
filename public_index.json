@@ -1,12 +1,11 @@
 {
   "desktop": {
     "Code.url": null,
-    "Doom.url": null,
     "DOS.url": null,
     "Explorer.url": null,
     "Genemator.url": null,
-    "Old Website.url": null,
-    "Telegram.url": null
+    "Telegram.url": null,
+    "Winamp.url": null
   },
   "docs": { "welcome.odt": null },
   "favicon.ico": null,
@@ -59,8 +58,9 @@
   },
   "start": {
     "Commander Keen.url": null,
+    "Doom.url": null,
     "Jazz Jackrabbit.url": null,
-    "WebODF.url": null,
-    "Winamp.url": null
+    "Old Website.url": null,
+    "WebODF.url": null
   }
 }
