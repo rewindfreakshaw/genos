@@ -50,6 +50,7 @@ const Code: React.FC<AppComponent> = () => {
             borderRadius: 5
           }}
           onClick={() => {
+            // eslint-disable-next-line @typescript-eslint/no-unused-vars
             codeWindow = window.open(
               CODE_HOME_PAGE,
               windowSettings.target,
