@@ -19,4 +19,4 @@ export const CLICK_DELAY_IN_MILLISECONDS = 300;
 
 export const NEXT_CONTAINER_ID = '__next';
 
-export const CNAME = 'desktop.genemator.uz';
+export const CNAME = 'bsba.uz';
